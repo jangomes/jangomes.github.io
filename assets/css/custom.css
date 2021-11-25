@@ -144,10 +144,22 @@ header.hero-block h2 { color: var(--yellow-300) }
 header a.btn-primary:focus { border-color: var(--yellow-600) }
 header a.btn-primary:hover { border-color: var(--yellow-600) }
 header a.btn-primary:active { border-color: var(--yellow-600) }
-header a.btn-primary:link { background-color: var(--black-000) }
-header a.btn-primary:visited { background-color: var(--black-000) }
-header a.btn-primary:link { border-color: var(--black-000) }
-header a.btn-primary:visited { border-color: var(--black-000) }
+
+
+header a.btn-primary:link { background-color: var(--blue-700) }
+header a.btn-primary:visited { background-color: var(--blue-700) }
+header a.btn-primary:link { border-color: var(--blue-700) }
+header a.btn-primary:visited { border-color: var(--blue-700) }
+
+
+
+
+/*contact content*/
+
+.container-contact-form { background-color: var(--yellow-400) }
+#contact-form { background-color: var(--yellow-400) }
+
+
 
 
 
