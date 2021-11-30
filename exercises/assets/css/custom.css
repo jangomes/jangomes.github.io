@@ -134,86 +134,25 @@
 }
 
 /* Global font */
-body { font-family: 'Playfair Display', serif; }
-
-section > p.standfirst {
-    font-size: calc(24px + (36 - 24) * ((100vw - 320px) / (1600 - 320)));       
-}
-
-/* ========= THEME ONE ========== */
-
-/* Background colour */
-.theme-one .col-1 h3 { color: var(--gray-700) }
+body { font-family: var(--global-font) }
 
 
-/* PAST THE CSS HERE */
-.theme-one h2 { color: var(--purple-500) } 
-.theme-one h3 { color: var(--purple-500) } 
-.theme-one .upper-label { color: var(--purple-500) }
-.theme-one p { color: var(--purple-300) }
-.theme-one li { color: var(--purple-300) }
-
-/* Watermelon Section  */
-.theme-two { background-color: var(--pink-300) }
-.theme-two .col-2 h2 { color: var(--red-600) }
-
-/* Apple Delight Section */
-.theme-three { background-color: var(--green-400) }
-.theme-three .col-2 h2 { color: var(--red-700) }
-
-/* Blueberry Surprise Section */
-.theme-four { background-color: var(--purple-300) }
-.theme-four .col-2 p { color: var(--white-000) }
-.theme-four .col-2 li { color: var(--white-000) }
-.theme-four .col-2 h2 { color: var(--purple-700) }
-
-/* Lemon Luxury Section */
-.theme-five { background-color: var(--yellow-300) }
-.theme-five .col-2 h2 { color: var(--red-500) }
-
-/* Google Fonts */
-.hero-block h1 {
-    font-size: calc(60px + (132 - 60) * ((100vw - 320px)/ (1600 - 320)));  
-    margin-bottom: 40px;
-    letter-spacing: 2px;
-}
-
-.hero-block h2 {
-    font-size: calc(32px + (64 - 32) * ((100vw - 320px)/ (1600 - 320)));  
-    letter-spacing: 1px;
-}
-
-.cols-2-split .col-2 h2 {
-    font-size: calc(32px + (58 - 32) * ((100vw - 320px) / (1600 - 320)));  
-    letter-spacing: 2px;
-}
-
-.cols-2-split .col-2 p {
-    font-size: calc(16px + (24 - 16) * ((100vw - 320px) / (1600 - 320)));  
-    letter-spacing: 1px;
-    line-height: 1.6;
-}
-
-
-
-/*new css*/
-.container-menu.menu-desktop {background-color: var(--trans-000)}
-.container-menu.menu-mobile {background-color: var(--trans-000)}
-
-
-.container-menu.menu-sticky.menu-mobile ul.mobile-display { background-color: var(--trans-000) }
+/* MENU */
 .container-menu a:link,
-.container-menu a:visited { color: var(--white-000) }
+.container-menu a:visited { color: var(--yellow-100) }
 .container-menu a#btn-cta:link,
-.container-menu a#btn-cta:visited { background-color: var(--red-600) }
+.container-menu a#btn-cta:visited { background-color: var(--yellow-500) }
 .container-menu a#btn-cta:link,
-.container-menu a#btn-cta:visited { border-color: var(--red-600) }
+.container-menu a#btn-cta:visited { border-color: var(--yellow-500) }
+.container-menu.menu-desktop { background-color: var(--black-000) }
+.container-menu.menu-mobile { background-color: var(--black-000) }
+.container-menu.menu-mobile ul.mobile-display { background-color: var(--black-000) }
+.container-menu a#btn-cta:link,
+.container-menu a#btn-cta:visited { color: var(--black-000) }
+
+
+
 .container-menu.menu-sticky.menu-desktop.menu-on-scroll,
 .container-menu.menu-sticky.menu-mobile.menu-on-scroll,
-.container-menu.menu-sticky.menu-mobile ul.mobile-display { background-color: var(--red-600) }
-.container-menu.menu-sticky.menu-desktop.menu-on-scroll,
-.container-menu.menu-sticky.menu-mobile.menu-on-scroll,
-.container-menu.menu-sticky.menu-mobile ul.mobile-display { background-color: var(--trans-000) }
-.container-menu.menu-sticky.menu-desktop.menu-on-scroll,
-.container-menu.menu-sticky.menu-mobile.menu-on-scroll,
-.container-menu.menu-sticky.menu-mobile ul.mobile-display { background-color: var(--red-600) }
+.container-menu.menu-sticky.menu-mobile ul.mobile-display { background-color: var(--red-500) }
+

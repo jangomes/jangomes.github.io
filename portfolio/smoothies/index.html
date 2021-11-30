@@ -16,7 +16,10 @@
     
     <link rel="stylesheet" href="assets/css/custom.css" />
 
-    <link rel="stylesheet" href="assets/css/lunadoge.min.css" />  
+    <link rel="stylesheet" href="assets/css/lunadoge2.css">
+
+    <link rel="stylesheet" href="assets/css/mystyle" media="print" onload="this.media='all'">
+
 
 	<!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -40,7 +43,25 @@
 <body>
 
     <!-- navigation menu -->
-    <nav></nav>
+
+
+
+    <nav class="container-menu menu-desktop menu-sticky">
+        <a href="#"><img src="assets/img/website-logo.png" alt="website logo"></a>
+        <ul>
+            <li><a href="#">Link</a></li>
+            <li><a href="#">Link</a></li>
+            <li><a href="#">Link</a></li>            
+            <li><a href="#" id="btn-cta"><span>CTA Link</span><i class="fas fa-arrow-right"></i></a></li>
+        </ul>
+        <div class="item-icon">
+            <div class="bar1"></div>
+            <div class="bar2"></div>
+            <div class="bar3"></div>
+        </div>
+    </nav>
+
+    
 
     <!-- header hero block -->
 
@@ -135,5 +156,6 @@
     <!-- footer -->
     <footer></footer>
    
+    <script src="assets/js/menu.js"></script>
 </body>
 </html>

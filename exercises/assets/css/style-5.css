@@ -12,10 +12,10 @@ input, button, textarea, select { font: inherit }
 /* ================= ENDS ================ */
 
 /* Desktops */
-@media (min-width: 768px) { body { padding: 4% 20% } }
+@media (min-width: 768px) { main { padding: 4% 20% } }
 
 /* Mobiles */
-@media (max-width: 767px) { body { padding: 12% 8% } }
+@media (max-width: 767px) { main { padding: 12% 8% } }
 
 
 /* Web page */
