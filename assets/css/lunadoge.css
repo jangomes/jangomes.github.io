@@ -50,6 +50,7 @@ header.hero-block { background-color: var(--blue-600) }
     margin-bottom: 24px;
 }
 
+
 .hero-block h1.text-long {
     font-size: calc(28px + (64 - 28) * ((100vw - 320px) / (1600 - 320)));
     letter-spacing: 0;
@@ -2021,6 +2022,9 @@ header.unhide-content-under-sticky-menu { margin-top: 58px }
     overscroll-behavior: contain;
     overscroll-behavior-y: contain
 }
+
+
+
 
 
 

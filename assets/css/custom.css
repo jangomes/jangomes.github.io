@@ -134,7 +134,7 @@
 }
 
 /* Global font */
-body { font-family: var(--global-font) }
+body { font-family: var(--global-font); margin-left: auto}
 
 
 /* header*/
@@ -174,4 +174,20 @@ header a.btn-primary:visited { border-color: var(--blue-700) }
 /*footer*/
 footer { background-color: var(--black-000) }
 
+
+
+/*-------------MENU NAVIGATION--------------------------*/
+
+.container-menu a:link,
+.container-menu.menu-desktop { background-color: var(--gray-600) }
+.container-menu.menu-mobile { background-color: var(--gray-600) }
+.container-menu.menu-mobile ul.mobile-display { background-color: var(--gray-600) }
+.container-menu a:link,
+.container-menu a:visited { color: var(--yellow-400) }
+.container-menu a#btn-cta:link,
+.container-menu a#btn-cta:visited { color: var(--yellow-500) }
+.container-menu a#btn-cta:link,
+.container-menu a#btn-cta:visited { background-color: var(--blue-600) }
+.container-menu a#btn-cta:link,
+.container-menu a#btn-cta:visited { border-color: var(--blue-600) }
 
