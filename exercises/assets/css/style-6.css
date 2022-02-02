@@ -48,3 +48,39 @@ p {
    line-height: 1.6;
    margin-bottom: 20px;
 }
+
+
+/* Passive link states 
+a:link {
+    color: blue
+   
+}
+
+ Passive link states 
+a:hover {
+    color: darkblue
+   
+}
+ Passive link states 
+a:visited {
+    color: blueviolet
+    } */
+
+
+    /* ====== HYPERLINK STYLES ====== */
+            
+/* Passive link styles */               
+a:link, a:visited {
+    text-decoration: none;
+    padding-bottom: 2px;
+    color: #006600;
+    border-bottom: solid 2px #006600;
+} 
+                                        
+/* Interactive link styles */              
+a:hover, a:focus, a:active {
+    text-decoration: none; 
+    padding-bottom: 2px;
+    color: #222;
+    border-bottom: solid 2px #222;
+}
